@@ -14,9 +14,7 @@ public class youtubemainpage {
 
 		ChromeDriver refe=new ChromeDriver();
 		refe.get("https://www.youtube.com/");
-		Options op=refe.manage();
-		Window w=op.window();
-  		w.maximize();
+		refe.manage().window().maximize();
   		try
   		{
 		List<WebElement> all=refe.findElements(By.id("video-title"));//total video :53 will show 

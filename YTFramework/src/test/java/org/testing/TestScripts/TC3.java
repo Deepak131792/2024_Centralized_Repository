@@ -3,10 +3,9 @@ package org.testing.TestScripts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 
 public class TC3 {
 
@@ -36,6 +35,6 @@ public class TC3 {
 		WebElement video =driver.findElement(By.id("video-title"));
 		video.click();
 		WebElement likeButton  = driver.findElement(By.className("yt-spec-button-shape-next__button-text-content"));
-		likeButton.click();
+	//	likeButton.click();
 	}
 }

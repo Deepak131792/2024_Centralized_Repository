@@ -27,8 +27,8 @@ public class Base {
 		}
 	}
 	
-//@AfterMethod
-//public void closure()
+@AfterMethod
+public void closure()
 	{
 		driver.close();
 	}

@@ -35,9 +35,5 @@ public class LoginPage
 		Thread.sleep(5000);
 	}
 
-	private void sendkeys(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-	
+
 }

@@ -15,6 +15,11 @@ public class Iphone implements Phoneinterface {
 		
 		
 	}
+	@Override
+	public void batterylife() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 

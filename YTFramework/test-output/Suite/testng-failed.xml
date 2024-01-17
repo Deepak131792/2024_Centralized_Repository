@@ -3,12 +3,26 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="browserclose"/>
+          <include name="Login"/>
+          <include name="LunchBrowser"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
       <class name="org.testing.TestScripts.TC3">
         <methods>
           <include name="Login"/>
           <include name="LunchBrowser"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="Login"/>
+          <include name="browserclose"/>
+          <include name="LunchBrowser"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

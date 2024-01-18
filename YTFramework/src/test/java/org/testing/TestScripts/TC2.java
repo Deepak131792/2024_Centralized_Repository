@@ -43,6 +43,7 @@ public class TC2 {
 	@AfterMethod
 	
 	public void browserclose()
+	
 	{
 		driver.close();
 	}
